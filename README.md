@@ -26,7 +26,8 @@ y_val = [0,1,4,9,16,25]
 plt.plot(x_val,y_val)
 plt.show()
 ```
-![325700663-7ea276da-329c-4e1b-af27-3ccbc2e158e8](https://github.com/aparnabalasubrmanian/EXNO-5-DS/assets/123351172/c3b1567c-eda6-46f9-97c0-5edcbc751613)
+![image](https://github.com/svarsha220/EXNO-5-DS/assets/127709117/0d155b05-5a8f-4e5e-be84-69e33aca5568)
+
 ```
 import matplotlib.pyplot as plt
 x = [1,2,3]
@@ -37,7 +38,8 @@ plt.ylabel('y-axis')
 plt.title('My first graph')
 plt.show()
 ```
-![325700892-53f92332-e90c-481d-b3db-b3a8b253211b](https://github.com/aparnabalasubrmanian/EXNO-5-DS/assets/123351172/0e9fe2e2-0d99-4f7e-bdb7-85543ac9252b)
+![image](https://github.com/svarsha220/EXNO-5-DS/assets/127709117/bef4d346-8a93-4ba5-8528-598c086cadd6)
+
 ```
 import matplotlib.pyplot as plt
 x1 = [1,2,3]
@@ -52,7 +54,8 @@ plt.title("Two lines on the same graph")
 plt.legend()
 plt.show()
 ```
-![325701123-2cc396f0-67ac-4526-9301-1126cb6eb146](https://github.com/aparnabalasubrmanian/EXNO-5-DS/assets/123351172/7678c654-4c38-4d56-9739-82c396ee8ada)
+![image](https://github.com/svarsha220/EXNO-5-DS/assets/127709117/229e99c1-51e7-44f7-b544-bb1e93b66342)
+
 ```
 import matplotlib.pyplot as plt
 import numpy as np
@@ -63,7 +66,8 @@ y3 = [2,4,6,8,10]
 plt.fill_between(x,y1,color = 'blue')
 plt.fill_between(x,y2,color = 'orange')
 ```
-![325701443-12d2d32e-2a72-4864-aeec-89af7b2f681d](https://github.com/aparnabalasubrmanian/EXNO-5-DS/assets/123351172/73207267-25b7-4d47-8ddc-8de6c259faa8)
+![image](https://github.com/svarsha220/EXNO-5-DS/assets/127709117/2215aede-997a-4634-9a11-f96e2ac33480)
+
 ```
 plt.stackplot(x,y1,y2,y3,labels = ['line1','line2','line3'])
 plt.legend(loc = 'upper left')
@@ -72,7 +76,8 @@ plt.xlabel('x-axis')
 plt.ylabel('y-axis')
 plt.show()
 ```
-![325701633-676db96f-5e9c-4ee4-a139-d42346831da8](https://github.com/aparnabalasubrmanian/EXNO-5-DS/assets/123351172/85a5c274-6f3c-4644-916f-8911a32ab070)
+![image](https://github.com/svarsha220/EXNO-5-DS/assets/127709117/af967d1d-50a2-4def-8d57-d616e1852161)
+
 ```
 import numpy as np
 import matplotlib.pyplot as plt
@@ -81,7 +86,8 @@ names = ['A','B','C','D']
 plt.bar(names, val,color = 'purple')
 plt.show()
 ```
-![325701778-7d71481a-1aa6-4b57-a5af-95af9b12a4be](https://github.com/aparnabalasubrmanian/EXNO-5-DS/assets/123351172/bbef76a4-0018-454e-81af-c4c29f91cc01)
+![image](https://github.com/svarsha220/EXNO-5-DS/assets/127709117/d8ab6890-0134-450d-82bc-6d9e8fc84461)
+
 ```
 import matplotlib.pyplot as plt
 import numpy as np
@@ -94,7 +100,8 @@ plt.ylabel('no of people')
 plt.title('histogram')
 plt.show()
 ```
-![325701999-5b088d34-b1ee-4b3e-a229-39360d583bf6](https://github.com/aparnabalasubrmanian/EXNO-5-DS/assets/123351172/45c9d44d-536f-4d4b-a30a-a1556a5e4762)
+![image](https://github.com/svarsha220/EXNO-5-DS/assets/127709117/aa8074f9-d991-4c53-a93a-a3f056ab235c)
+
 ```
 import matplotlib.pyplot as plt
 import numpy as np
@@ -102,7 +109,8 @@ np.random.seed(0)
 data=np.random.normal(loc=0,scale=1,size=100)
 data
 ```
-![325702341-d66d7f36-ff0d-41de-9fdd-1ebd34f79828](https://github.com/aparnabalasubrmanian/EXNO-5-DS/assets/123351172/57013638-cf5c-4384-807d-a5ae720fac62)
+![image](https://github.com/svarsha220/EXNO-5-DS/assets/127709117/c1f0aac1-6c62-41ae-bdee-095ef6114f56)
+
 ```
 fig,ax=plt.subplots()
 ax.boxplot(data)
@@ -110,7 +118,8 @@ ax.set_xlabel("data")
 ax.set_ylabel("values")
 ax.set_title("box plot")
 ```
-![325702521-4cdf0d14-c240-4e56-9ef1-ed0ac3eef7d2](https://github.com/aparnabalasubrmanian/EXNO-5-DS/assets/123351172/c1307c5c-99e4-4e67-b0a0-2a59ef9eecc6)
+![image](https://github.com/svarsha220/EXNO-5-DS/assets/127709117/23c03a93-ae6b-4139-9d30-c08555d43002)
+
 ```
 import matplotlib.pyplot as plt
 activities=['eat','sleep','work','play']
@@ -120,7 +129,8 @@ plt.pie(slices,labels = slices,colors=colors,startangle=90,shadow = True,explode
 plt.legend()
 plt.show()
 ```
-![325702693-ddb35914-91b3-478a-81cf-f76e9cc9c071](https://github.com/aparnabalasubrmanian/EXNO-5-DS/assets/123351172/aff6791e-db9d-4bff-8f4a-6ee9444d5913)
+![image](https://github.com/svarsha220/EXNO-5-DS/assets/127709117/0877251a-d7f7-4eba-99fa-3aab6dbbf66c)
+
 
 # Result:
   Thus, We have successfullu performed Data Visualization using matplot python library for the given datas.
